@@ -1,0 +1,184 @@
+
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url(dumbell.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    background-size: cover;
+}
+
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+
+}
+
+.left img{
+    width: 120px;
+}
+
+.left div{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: purple;
+}
+
+.mid{
+    border: 2px solid rgb(57, 243, 0);
+    display: block;
+    width: 46%;
+    margin: 12px auto;
+    background-color: black;
+    border-radius: 30%;
+    
+}
+
+
+
+.right{
+    position: absolute;
+    right: 40px;
+    top: 28px;
+
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0px;
+}
+
+
+.navbar li a{
+    color: rgb(250, 247, 244);
+    text-decoration: none;
+    padding: 24px;
+    font-size: 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.navbar li a:focus{
+    color: rgb(0, 255, 238);
+}
+
+.btn{
+    font-family: 'Baloo Tamma 2', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    border: 2px solid grey;
+    border-radius: 30%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 140px auto;
+    padding: 80px 120px;
+    width: 30%;
+    max-height: 182%;
+    border-radius: 36px;
+    background-color: rgb(0 0 0 / 40%);
+    
+}
+
+.container h1{
+    background-color: rgb(6 1 1 / 40%);
+    color: white;
+    width: 513px;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    margin: 20px auto;
+    font-size: 42px;
+    font-family: 'Baloo Tamma 2', cursive;
+   
+}
+
+.form-group input{
+    text-align: center;
+    font-size: 20px;
+    margin: 9px auto;
+    width: 320px;
+    display: block;
+    border: 2px solid #a9ad08;
+    border-radius: 20px;
+    padding: 8px 0px;
+}
+
+.container button{
+    text-align: center;
+    width: 120px;
+    display: block;
+    margin: 21px auto;
+    padding: 8px 0px;
+    border-radius: 18%;
+    border: 2px outset white;
+}
+
+.container button:hover{
+    background-color: rgb(37, 33, 33);
+    color: white
+}
+
+.col1{
+    font-size: 26px;
+    font-weight: bold;        
+    position: absolute;
+    /* top: 392px; */
+    left: 518px;
+    color: #00fbcf;
+
+}
+
+.col2{
+    font-size: 26px;
+    font-weight: bold;   
+    position: absolute;
+    /* top: 446px;
+    left: 274px; */
+    color: #00fbcf;
+
+}
+
+.col3{
+    font-size: 26px;
+    font-weight: bold;   
+    position: absolute;
+    /* top: 498px; */
+    left: 425px;
+    color: #00fbcf;
+
+}
+
+.col4{
+    font-size: 26px;
+    font-weight: bold;    
+    position: absolute;
+    /* top: 551px; */
+    left: 482px;
+    color: #00fbcf;
+}

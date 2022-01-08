@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym site</title>
+
+    <link rel="stylesheet" href="stylegym.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="logo">
+            <div class="logo">
+                Fitness center  
+            </div>
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">BMI calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join today and get 30% off!!</h1>
+        <form action="nothing.php">
+            <div class="col1">
+                <label for="fname">Name:</label>
+            </div>
+            <div class="form-group">
+                <input type="text" name="text" id="fname" placeholder="Enter your Name">
+            </div>
+            <div class="col2">
+                <label for="age">Age:</label>
+            </div>
+            <div class="form-group">
+                <input type="text" name="text" placeholder="Enter your Age" id="age">
+            </div>
+            <div class="col3">
+                <label for="qu">Qualification:</label>
+            </div>
+            <div class="form-group">
+                <input type="text" name="text" placeholder="Enter your qualification" id="qu">
+            </div>
+            <div class="col4">
+                <label for="lo">Location:</label>
+            </div>
+            <div class="form-group">
+                <input type="text" name="text" placeholder="Enter your location" id="lo">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
